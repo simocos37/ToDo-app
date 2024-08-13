@@ -1,0 +1,52 @@
+.app_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.app_header > form {
+    width: 40%;
+}
+
+.task_input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 15px;
+}
+
+.task_form_bottom_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task_status {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 0 5px;
+}
+
+.task_submit {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #5f7ee5;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.task_input::placeholder {
+    color: #686868
+}
