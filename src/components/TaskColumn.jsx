@@ -3,6 +3,7 @@
 import React from "react";
 import "./TaskColumn.css";
 import MiniFigure from "../assets/LEGO-Campus-Billund-Denmark.jpg"
+import TaskCard from "./TaskCard";
 
 const TaskColumn = ({columnLabel}) => {
     return (
@@ -11,6 +12,7 @@ const TaskColumn = ({columnLabel}) => {
                 <img className="task_column_icon" src={MiniFigure} alt=""/>
                 {columnLabel}
             </h2>
+            < TaskCard />
         </section>
     )
 }
